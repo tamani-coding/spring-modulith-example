@@ -1,0 +1,4 @@
+CREATE TABLE notification (
+  id SERIAL PRIMARY KEY,
+  type VARCHAR (50) UNIQUE NOT NULL
+);
