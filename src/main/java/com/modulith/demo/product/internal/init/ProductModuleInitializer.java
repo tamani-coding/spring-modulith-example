@@ -1,4 +1,4 @@
-package com.modulith.demo.product.init;
+package com.modulith.demo.product.internal.init;
 
 import org.flywaydb.core.Flyway;
 import org.flywaydb.core.api.MigrationVersion;

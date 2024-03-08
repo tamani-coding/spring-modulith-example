@@ -1,4 +1,4 @@
-package com.modulith.demo.product;
+package com.modulith.demo.product.internal.service;
 
 import com.modulith.demo.notification.NotificationDTO;
 import com.modulith.demo.notification.NotificationEvent;

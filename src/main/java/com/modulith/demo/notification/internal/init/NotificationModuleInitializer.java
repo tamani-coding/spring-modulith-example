@@ -1,4 +1,4 @@
-package com.modulith.demo.notification.init;
+package com.modulith.demo.notification.internal.init;
 
 import org.flywaydb.core.Flyway;
 import org.flywaydb.core.api.MigrationVersion;
