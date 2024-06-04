@@ -1,4 +1,4 @@
 CREATE TABLE notification (
-  id SERIAL PRIMARY KEY NOT NULL,
+  id int8 PRIMARY KEY NOT NULL DEFAULT nextval('mysequence'),
   type VARCHAR (50) UNIQUE NOT NULL
 );

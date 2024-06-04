@@ -1,5 +1,5 @@
 CREATE TABLE product (
-  id SERIAL PRIMARY KEY NOT NULL,
+  id int8 PRIMARY KEY NOT NULL DEFAULT nextval('mysequence'),
   name VARCHAR (50) UNIQUE NOT NULL,
   description VARCHAR (256) NOT NULL
 );
