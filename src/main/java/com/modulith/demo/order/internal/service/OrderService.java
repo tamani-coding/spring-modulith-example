@@ -9,8 +9,6 @@ import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.Date;
-
 @Service
 @RequiredArgsConstructor
 @Slf4j
@@ -30,12 +28,14 @@ public class OrderService {
                 .address(address)
                 .product(product)
                 .build();
-
         order = orderRepository.save(order);
+        events.publishEvent(
+                new ProductOrderCreated(
+                order.getId(),
+                order.getAddress(),
+                order.getProduct())
+        );
         log.info("stored order {}", order.getId());
-
-        events.publishEvent(new ProductOrderCreated(
-                order.getId(), order.getAddress(), order.getProduct()));
     }
 
 }
