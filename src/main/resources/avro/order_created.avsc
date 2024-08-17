@@ -1,0 +1,10 @@
+{
+   "type" : "record",
+   "namespace" : "test",
+   "name" : "OrderCreated",
+   "fields" : [
+      { "name" : "OrderId" , "type" : "long" },
+      { "name" : "Address" , "type" : "string" },
+      { "name" : "Product" , "type" : "string" }
+   ]
+}

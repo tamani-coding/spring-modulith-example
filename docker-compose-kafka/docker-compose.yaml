@@ -10,6 +10,7 @@ services:
       - 7082:7082
       - 7083:7083
       - 9092:9092
+      - 8081:8081
     environment:
       ADV_HOST: 127.0.0.1
       RUNTESTS: 0
