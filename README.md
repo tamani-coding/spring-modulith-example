@@ -10,3 +10,6 @@ https://spring.io/blog/2023/09/22/simplified-event-externalization-with-spring-m
 Spring Documentation "Working with Application Events"
 
 https://docs.spring.io/spring-modulith/reference/events.html
+
+
+http://localhost:8080/order/generate-test-order
