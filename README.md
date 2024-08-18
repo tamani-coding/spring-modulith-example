@@ -11,6 +11,10 @@ Spring Documentation "Working with Application Events"
 
 https://docs.spring.io/spring-modulith/reference/events.html
 
+Spring Modulith - Reference documentation
+
+https://docs.spring.io/spring-modulith/docs/current-SNAPSHOT/reference/html/
+
 
 http://localhost:8080/order/generate-test-order
 
