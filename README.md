@@ -13,3 +13,5 @@ https://docs.spring.io/spring-modulith/reference/events.html
 
 
 http://localhost:8080/order/generate-test-order
+
+http://localhost:8080/actuator/prometheus
